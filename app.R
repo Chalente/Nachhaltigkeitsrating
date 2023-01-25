@@ -157,7 +157,7 @@ colnames(BASE_Nachhaltigkeit_Spider) <- BASE_Nachhaltigkeit_Spider[1,]
 BASE_Nachhaltigkeit_Spider <- BASE_Nachhaltigkeit_Spider[-1,]
 BASE_Nachhaltigkeit_Spider <- BASE_Nachhaltigkeit_Spider[-3,]
 #BASE_Nachhaltigkeit_Spider$Dekarbonisierung <-  replace_na(BASE_Nachhaltigkeit_Spider$Dekarbonisierung, replace = "0")
-BASE_Nachhaltigkeit_Spider <- BASE_Nachhaltigkeit_Spider[-3,]
+#BASE_Nachhaltigkeit_Spider <- BASE_Nachhaltigkeit_Spider[-3,]
 #BASE_Nachhaltigkeit_Spider <- BASE_Nachhaltigkeit_Spider[-1,]
 
 BASE_Nachhaltigkeit_Spider <- BASE_Nachhaltigkeit_Spider %>% select(-c("Zwischenergebnis Ökologie", "Zwischenergebnis Sozial", "Zwischenergebnis Ökomisch", "Zwischenergebnis Basal", "Gesamtnutzwert"))
