@@ -1,3 +1,11 @@
+install.packages("tidyverse")
+install.packages("dplyr")
+install.packages("readxl")
+install.packages("treemap")
+install.packages("fmsb")
+install.packages("stringr")
+install.packages("gridExtra")
+
 library(tidyverse)
 library(dplyr)
 library(readxl)
